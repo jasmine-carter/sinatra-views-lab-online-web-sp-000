@@ -5,7 +5,7 @@
 </head>
 <body>
   <h1>Today</h1>
-  <%date=DateTime.now.new_offset(0).strftime("%A, %B %d, %Y") %>
+  <%date=Date.today.strftime("%A, %B %d, %Y") %>
   <p>The date is #{date}.</p>
 </body>
 </html>
